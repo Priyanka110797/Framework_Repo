@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="RegressionSuite">
+<groups> 
+<run>  
+<include name="RegressionTest" />
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="PracticeMaven2.OrgTest"/>
+      <class name="PracticeMaven1.ContactTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
