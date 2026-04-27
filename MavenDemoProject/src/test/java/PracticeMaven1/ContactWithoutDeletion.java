@@ -15,7 +15,7 @@ public class ContactWithoutDeletion {
 		System.out.println(Browser+"\t"+URL+"\t"+UN+"\t"+PW);		
 		System.out.println("execute createContactTest");
 	}
-	@Test(groups="RegressionTest")
+	@Test(groups="SmokeTest")
 	public void modifyContactTest() {
 		System.out.println("execute modifyContactTest");
 	}
